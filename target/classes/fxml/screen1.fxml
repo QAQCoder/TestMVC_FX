@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="mutipleScreen.Screen1Controller"
+      alignment="CENTER"
+      prefHeight="400.0" prefWidth="600.0">
+
+    <Text text="1"></Text>
+
+    <Button fx:id="btnTo2" onAction="#event1" text="To2"/>
+    <Button fx:id="btnTo3" onAction="#event2" text="To3"/>
+
+</VBox>
